@@ -20,7 +20,8 @@ class Dog
   end
   
   def self.print_all
-    @@all.each { |x| puts x}
+    @@all.each { |name| puts name}
+    @name
   end
 
   def self.clear_all
